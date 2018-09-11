@@ -9,6 +9,14 @@ export class AboutPage {
 
   constructor(public navCtrl: NavController) {
 
+    now: Date;
+
+    this.now = new Date();
+
+    author: string;
+
+    this.author = 'Denver Nash';
+
   }
 
 }

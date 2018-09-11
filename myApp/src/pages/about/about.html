@@ -6,6 +6,16 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <p>This page was created at {{now.getHours()}}:{{now.getMinutes()}}.</p>
 
+  now: Date;
+
+  this.now = new Date();
+
+  author: string;
+
+  this.author = 'Denver Nash'; <!-- replace with your name -->
+
+  <p>This app was written by {{author}}. </p>
 </ion-content>
